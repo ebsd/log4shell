@@ -38,7 +38,7 @@ import paramiko
 from paramiko import SSHClient
 from scp import SCPClient
 
-# Les fonctions ne sont pas disponibles publiquement.
+# Les fonctions suivantes ne sont pas disponibles publiquement.
 ## writeToFile: écrire dans un fichier
 ## search_in_file: rechercher dans un fichier
 ## chkAlivefping: la machine est-elle alive ?
