@@ -211,7 +211,7 @@ with open("inventaire.txt", "r") as file:
                                             libIsUsed=False
                                         for i in lsof[1]:
                                             print(i)
-                                            # il nous faut un byte et non un str pour comparer
+                                            # il nous faut un byte (b) et non un str pour comparer avec i
                                             if b'No such file or directory' in i:
                                                 print("lib ne semble pas utilisée")
                                                 libIsUsed=False
