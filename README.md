@@ -5,4 +5,4 @@
 3. Vérifie si la lib est utilisée par un processus
 4. Vérifie si un workaround est appliqué (un seul des workarounds)
 
-
+Lire le code commenté de `log4shell.py`.
