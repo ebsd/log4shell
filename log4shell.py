@@ -144,6 +144,7 @@ with open("inventaire.txt", "r") as file:
                     sg_checkIn(user_token, requestId)
 
                     # upload du bin log4shell dans /tmp
+                    ## Télécharger le bin : github.com/lunasec-io/lunasec/releases/
                     print("Upload en cours...")
                     ssh = createSSHClient('root', pwd, host)
                     scp = SCPClient(ssh.get_transport())
