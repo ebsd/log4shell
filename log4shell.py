@@ -152,8 +152,9 @@ with open("inventaire.txt", "r") as file:
 
                     # lancer la commande de check avec sortie au format json
                     print("Scan en cours...")
-                    # avec un renice si jamais (je n'ai jamais constaté de surcharge)
-                    # out = ssh_cmd('root', pwd, host, '/usr/bin/nice -n -20 /local/log4shell --json scan /local /opt')
+                    ## avec un renice si jamais (je n'ai jamais constaté de surcharge)
+                    ## out = ssh_cmd('root', pwd, host, '/usr/bin/nice -n -20 /local/log4shell --json scan /local /opt')
+                    ## sortie --json
                     out = ssh_cmd('root', pwd, host, '/root/log4shell --json scan /local /opt')
                     #print(out)
                 
