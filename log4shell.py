@@ -8,7 +8,7 @@
 # Licence: WTFPL
 # Date:    15.12.2021
 # Author:  ebsd
-# Update:  
+# Updates:  
 #         15.12.2021 : Ne scanner que le /local et /opt pour cette itération
 #         16.12.2021 : ajout d'un test lsof de la lib pour connaitre l'état lib utilisée / non utilisée (dès 10h45)
 #         17.12.2021 : ajout de fonctions pour tester la présence du contournement Dlog4j2.formatMsgNoLookups=true (qui ne semble pas suffisant)
