@@ -5,6 +5,9 @@
 #     Ce code ne respecte probablement pas le meilleures pratiques. Il a été écrit
 #     dans l'urgence et par un non professionnel du dev. Il peut être nettement amélioré.
 #
+# Usage:
+#     Le bin log4shell (https://github.com/lunasec-io/lunasec/releases) doit être présent dans le même chemin que le présent script python.
+#
 # Licence: WTFPL
 # Date:    15.12.2021
 # Author:  ebsd
