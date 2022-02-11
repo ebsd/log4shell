@@ -21,9 +21,7 @@
 #
 # Erreurs / exceptions non gérées:
 #      - Timeout waiting scp response
-#      - paramiko.ssh_exception.SSHException: Unable to connect to vmlp-01026: [Errno 24] Too many open files
-#      - KeyError: 'Id' : impossible de se connecter à SG ? Retenter. Sinon peut être pas d'accès depuis Safeguard.
-#      - upload impossible avec "scp.SCPException: scp: /local: Is a directory"
+#      - paramiko.ssh_exception.SSHException: Unable to connect to xxxxxx: [Errno 24] Too many open files
 #      - lsof qui n'est pas installé sur la VM cible
 #
 # Todo:
