@@ -33,12 +33,19 @@ import sys, os
 import json
 from subprocess import Popen, PIPE
 sys.path.append(os.path.expanduser('../python-common')) # or give the full path
-from myutils import chkAlive,writeToFile,search_in_file,chkAlivefping,isOpen
-from sg import sgconn,sg_reqpwd,sg_checkIn,sg_checkOutPassword,assetPartitionList
-import paramiko
 
+import paramiko
 from paramiko import SSHClient
 from scp import SCPClient
+
+# Les fonctions ne sont pas disponibles publiquement.
+## writeToFile: écrire dans un fichier
+## search_in_file: rechercher dans un fichier
+## chkAlivefping: la machine est-elle alive ?
+## isOpen: le port est-il ouvert ?
+## sgconn,sg_reqpwd,sg_checkIn,sg_checkOutPassword,assetPartitionList: obtenir le mdp de connexion à la machine
+from myutils import writeToFile,search_in_file,chkAlivefping,isOpen
+from sg import sgconn,sg_reqpwd,sg_checkIn,sg_checkOutPassword,assetPartitionList
 
 def createSSHClient(user, pwd, host):
     client = paramiko.SSHClient()
